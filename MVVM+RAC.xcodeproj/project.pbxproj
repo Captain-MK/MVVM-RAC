@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24B82938898A54237E950E0C /* libPods-MVVM+RACUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F42986ACB19CF666F2EEA30 /* libPods-MVVM+RACUITests.a */; };
 		4D387D7C20DCA33100A3C3B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D387D7B20DCA33100A3C3B8 /* AppDelegate.m */; };
 		4D387D7F20DCA33100A3C3B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D387D7E20DCA33100A3C3B8 /* ViewController.m */; };
 		4D387D8220DCA33100A3C3B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D387D8020DCA33100A3C3B8 /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		4D387D8A20DCA33200A3C3B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D387D8920DCA33200A3C3B8 /* main.m */; };
 		4D387D9420DCA33300A3C3B8 /* MVVM_RACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D387D9320DCA33300A3C3B8 /* MVVM_RACTests.m */; };
 		4D387D9F20DCA33300A3C3B8 /* MVVM_RACUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D387D9E20DCA33300A3C3B8 /* MVVM_RACUITests.m */; };
+		4D387DB320DCA4CD00A3C3B8 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D387DB220DCA4CD00A3C3B8 /* ViewModel.m */; };
+		4D387DB620DCA50C00A3C3B8 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D387DB520DCA50C00A3C3B8 /* Model.m */; };
+		4D387DBD20DCA84400A3C3B8 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D387DBB20DCA84400A3C3B8 /* CustomCell.m */; };
+		4D387DBE20DCA84400A3C3B8 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D387DBC20DCA84400A3C3B8 /* CustomCell.xib */; };
+		812D7F050F8C112656BB4B3C /* libPods-MVVM+RAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D572196A1534CF3C466B63E /* libPods-MVVM+RAC.a */; };
+		9076143FDA1E037D01CA64D1 /* libPods-MVVM+RACTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A99DE547AEDD1D7A8D903C /* libPods-MVVM+RACTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12DEA1E0E5EDF44DAB121E7C /* Pods-MVVM+RAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+RAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+RAC/Pods-MVVM+RAC.debug.xcconfig"; sourceTree = "<group>"; };
+		14A99DE547AEDD1D7A8D903C /* libPods-MVVM+RACTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM+RACTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F9B62DAD43EC1284471B2A /* Pods-MVVM+RACTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+RACTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+RACTests/Pods-MVVM+RACTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C6BC27CACEBD2C70C521E4D /* Pods-MVVM+RACTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+RACTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+RACTests/Pods-MVVM+RACTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D387D7720DCA33100A3C3B8 /* MVVM+RAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+RAC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D387D7A20DCA33100A3C3B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D387D7B20DCA33100A3C3B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,20 @@
 		4D387D9A20DCA33300A3C3B8 /* MVVM+RACUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM+RACUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D387D9E20DCA33300A3C3B8 /* MVVM_RACUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_RACUITests.m; sourceTree = "<group>"; };
 		4D387DA020DCA33300A3C3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D387DB120DCA4CD00A3C3B8 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		4D387DB220DCA4CD00A3C3B8 /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		4D387DB420DCA50C00A3C3B8 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		4D387DB520DCA50C00A3C3B8 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		4D387DB720DCA5B900A3C3B8 /* PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCH.pch; sourceTree = "<group>"; };
+		4D387DB920DCA66D00A3C3B8 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		4D387DBA20DCA84400A3C3B8 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		4D387DBB20DCA84400A3C3B8 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		4D387DBC20DCA84400A3C3B8 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		4D572196A1534CF3C466B63E /* libPods-MVVM+RAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM+RAC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F42986ACB19CF666F2EEA30 /* libPods-MVVM+RACUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM+RACUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DBEE1A3CCAF42AD749649B /* Pods-MVVM+RACUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+RACUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+RACUITests/Pods-MVVM+RACUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8484F179EBE2FA1E86F4C71 /* Pods-MVVM+RACUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+RACUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+RACUITests/Pods-MVVM+RACUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2B34BAF119D65E833BBAA1F /* Pods-MVVM+RAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+RAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+RAC/Pods-MVVM+RAC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				812D7F050F8C112656BB4B3C /* libPods-MVVM+RAC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9076143FDA1E037D01CA64D1 /* libPods-MVVM+RACTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +99,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B82938898A54237E950E0C /* libPods-MVVM+RACUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		350214E96E1377AAB56D86A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12DEA1E0E5EDF44DAB121E7C /* Pods-MVVM+RAC.debug.xcconfig */,
+				E2B34BAF119D65E833BBAA1F /* Pods-MVVM+RAC.release.xcconfig */,
+				1C6BC27CACEBD2C70C521E4D /* Pods-MVVM+RACTests.debug.xcconfig */,
+				16F9B62DAD43EC1284471B2A /* Pods-MVVM+RACTests.release.xcconfig */,
+				D8484F179EBE2FA1E86F4C71 /* Pods-MVVM+RACUITests.debug.xcconfig */,
+				C9DBEE1A3CCAF42AD749649B /* Pods-MVVM+RACUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4D387D6E20DCA33100A3C3B8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				4D387D9220DCA33300A3C3B8 /* MVVM+RACTests */,
 				4D387D9D20DCA33300A3C3B8 /* MVVM+RACUITests */,
 				4D387D7820DCA33100A3C3B8 /* Products */,
+				350214E96E1377AAB56D86A2 /* Pods */,
+				4F7DE6E3C40146A502C198CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +144,7 @@
 		4D387D7920DCA33100A3C3B8 /* MVVM+RAC */ = {
 			isa = PBXGroup;
 			children = (
+				4D387DAC20DCA3D300A3C3B8 /* MVVM */,
 				4D387D7A20DCA33100A3C3B8 /* AppDelegate.h */,
 				4D387D7B20DCA33100A3C3B8 /* AppDelegate.m */,
 				4D387D7D20DCA33100A3C3B8 /* ViewController.h */,
@@ -110,6 +154,8 @@
 				4D387D8520DCA33200A3C3B8 /* LaunchScreen.storyboard */,
 				4D387D8820DCA33200A3C3B8 /* Info.plist */,
 				4D387D8920DCA33200A3C3B8 /* main.m */,
+				4D387DB720DCA5B900A3C3B8 /* PCH.pch */,
+				4D387DB920DCA66D00A3C3B8 /* Common.h */,
 			);
 			path = "MVVM+RAC";
 			sourceTree = "<group>";
@@ -132,6 +178,62 @@
 			path = "MVVM+RACUITests";
 			sourceTree = "<group>";
 		};
+		4D387DAC20DCA3D300A3C3B8 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				4D387DB020DCA3FB00A3C3B8 /* View */,
+				4D387DAF20DCA3F500A3C3B8 /* viewModel */,
+				4D387DAE20DCA3EF00A3C3B8 /* model */,
+				4D387DAD20DCA3E200A3C3B8 /* controller */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		4D387DAD20DCA3E200A3C3B8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4D387DAE20DCA3EF00A3C3B8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4D387DB420DCA50C00A3C3B8 /* Model.h */,
+				4D387DB520DCA50C00A3C3B8 /* Model.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4D387DAF20DCA3F500A3C3B8 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D387DB120DCA4CD00A3C3B8 /* ViewModel.h */,
+				4D387DB220DCA4CD00A3C3B8 /* ViewModel.m */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		4D387DB020DCA3FB00A3C3B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D387DBA20DCA84400A3C3B8 /* CustomCell.h */,
+				4D387DBB20DCA84400A3C3B8 /* CustomCell.m */,
+				4D387DBC20DCA84400A3C3B8 /* CustomCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F7DE6E3C40146A502C198CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D572196A1534CF3C466B63E /* libPods-MVVM+RAC.a */,
+				14A99DE547AEDD1D7A8D903C /* libPods-MVVM+RACTests.a */,
+				5F42986ACB19CF666F2EEA30 /* libPods-MVVM+RACUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D387DA320DCA33300A3C3B8 /* Build configuration list for PBXNativeTarget "MVVM+RAC" */;
 			buildPhases = (
+				AF50D9CEBBE159A0F70F9E13 /* [CP] Check Pods Manifest.lock */,
 				4D387D7320DCA33100A3C3B8 /* Sources */,
 				4D387D7420DCA33100A3C3B8 /* Frameworks */,
 				4D387D7520DCA33100A3C3B8 /* Resources */,
+				15AB69720A5423CA5696F0D8 /* [CP] Embed Pods Frameworks */,
+				AFE19896363259A383A24EA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D387DA620DCA33300A3C3B8 /* Build configuration list for PBXNativeTarget "MVVM+RACTests" */;
 			buildPhases = (
+				DE931225FF780A224A587799 /* [CP] Check Pods Manifest.lock */,
 				4D387D8B20DCA33300A3C3B8 /* Sources */,
 				4D387D8C20DCA33300A3C3B8 /* Frameworks */,
 				4D387D8D20DCA33300A3C3B8 /* Resources */,
+				87DA7F1A48EC50CB6674D82A /* [CP] Embed Pods Frameworks */,
+				4E59CE3560D8C8B067BC9471 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D387DA920DCA33300A3C3B8 /* Build configuration list for PBXNativeTarget "MVVM+RACUITests" */;
 			buildPhases = (
+				122BF373B03068B52A76E97B /* [CP] Check Pods Manifest.lock */,
 				4D387D9620DCA33300A3C3B8 /* Sources */,
 				4D387D9720DCA33300A3C3B8 /* Frameworks */,
 				4D387D9820DCA33300A3C3B8 /* Resources */,
+				578310623D9D92F235D0C933 /* [CP] Embed Pods Frameworks */,
+				910F13D2AAFCA43173394749 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +348,7 @@
 			files = (
 				4D387D8720DCA33200A3C3B8 /* LaunchScreen.storyboard in Resources */,
 				4D387D8420DCA33200A3C3B8 /* Assets.xcassets in Resources */,
+				4D387DBE20DCA84400A3C3B8 /* CustomCell.xib in Resources */,
 				4D387D8220DCA33100A3C3B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +369,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		122BF373B03068B52A76E97B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM+RACUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15AB69720A5423CA5696F0D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+RAC/Pods-MVVM+RAC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E59CE3560D8C8B067BC9471 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+RACTests/Pods-MVVM+RACTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578310623D9D92F235D0C933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+RACUITests/Pods-MVVM+RACUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87DA7F1A48EC50CB6674D82A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+RACTests/Pods-MVVM+RACTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910F13D2AAFCA43173394749 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+RACUITests/Pods-MVVM+RACUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF50D9CEBBE159A0F70F9E13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM+RAC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE19896363259A383A24EA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+RAC/Pods-MVVM+RAC-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+RAC/Pods-MVVM+RAC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE931225FF780A224A587799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM+RACTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D387D7320DCA33100A3C3B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +528,10 @@
 			files = (
 				4D387D7F20DCA33100A3C3B8 /* ViewController.m in Sources */,
 				4D387D8A20DCA33200A3C3B8 /* main.m in Sources */,
+				4D387DBD20DCA84400A3C3B8 /* CustomCell.m in Sources */,
+				4D387DB320DCA4CD00A3C3B8 /* ViewModel.m in Sources */,
 				4D387D7C20DCA33100A3C3B8 /* AppDelegate.m in Sources */,
+				4D387DB620DCA50C00A3C3B8 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,14 +698,15 @@
 		};
 		4D387DA420DCA33300A3C3B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DEA1E0E5EDF44DAB121E7C /* Pods-MVVM+RAC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mk/Desktop/MVVM+RAC/MVVM+RAC/PCH.pch";
 				INFOPLIST_FILE = "MVVM+RAC/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MkRAC.www.MVVM-RAC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,14 +715,15 @@
 		};
 		4D387DA520DCA33300A3C3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B34BAF119D65E833BBAA1F /* Pods-MVVM+RAC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mk/Desktop/MVVM+RAC/MVVM+RAC/PCH.pch";
 				INFOPLIST_FILE = "MVVM+RAC/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MkRAC.www.MVVM-RAC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,15 +732,12 @@
 		};
 		4D387DA720DCA33300A3C3B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6BC27CACEBD2C70C521E4D /* Pods-MVVM+RACTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MVVM+RACTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MkRAC.www.MVVM-RACTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,15 +747,12 @@
 		};
 		4D387DA820DCA33300A3C3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F9B62DAD43EC1284471B2A /* Pods-MVVM+RACTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MVVM+RACTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MkRAC.www.MVVM-RACTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,14 +762,11 @@
 		};
 		4D387DAA20DCA33300A3C3B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8484F179EBE2FA1E86F4C71 /* Pods-MVVM+RACUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MVVM+RACUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MkRAC.www.MVVM-RACUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,14 +776,11 @@
 		};
 		4D387DAB20DCA33300A3C3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DBEE1A3CCAF42AD749649B /* Pods-MVVM+RACUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MVVM+RACUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MkRAC.www.MVVM-RACUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

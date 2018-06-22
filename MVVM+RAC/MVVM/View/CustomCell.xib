@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="123" id="KGk-i7-Jjw" customClass="CustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fLA-7V-Z6m">
+                        <rect key="frame" x="15" y="15" width="93.5" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="fLA-7V-Z6m" secondAttribute="height" multiplier="95:71" id="XT5-Nf-7pk"/>
+                            <constraint firstAttribute="height" constant="70" id="yOW-b7-68d"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIu-Ya-V5h">
+                        <rect key="frame" x="118.5" y="15" width="175.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fLA-7V-Z6m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="7go-FM-4yg"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="SIu-Ya-V5h" secondAttribute="trailing" constant="10" id="8c7-k3-oHL"/>
+                    <constraint firstItem="SIu-Ya-V5h" firstAttribute="leading" secondItem="fLA-7V-Z6m" secondAttribute="trailing" constant="10" id="Xpm-ig-3TJ"/>
+                    <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="SIu-Ya-V5h" secondAttribute="bottom" constant="14.5" id="rXg-Kl-K1m"/>
+                    <constraint firstItem="SIu-Ya-V5h" firstAttribute="top" secondItem="fLA-7V-Z6m" secondAttribute="top" id="sNU-LS-OXl"/>
+                    <constraint firstItem="fLA-7V-Z6m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="wD2-m2-BZM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="image" destination="fLA-7V-Z6m" id="mCv-DP-O0m"/>
+                <outlet property="lable" destination="SIu-Ya-V5h" id="ysX-E5-xiC"/>
+            </connections>
+            <point key="canvasLocation" x="-118" y="-21"/>
+        </tableViewCell>
+    </objects>
+</document>
